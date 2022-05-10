@@ -6,7 +6,9 @@ name = "pypi"
 [packages]
 
 [dev-packages]
+pytest = "*"
 
 [scripts]
 build = "python setup.py sdist"
 install = "pip install -e ."
+test = "pytest"
